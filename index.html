@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Frontend Mentor | Expenses chart component
+    </title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="container__header">
+        <span class="title-wrapper">
+          <span class="header__title">My balance</span>
+          <span class="header__balance">$921.48</span>
+        </span>
+        <div class="header__logo">
+          <img src="./images/logo.svg" alt="Logo" />
+        </div>
+      </div>
+      <div class="container__body">
+        <h1 class="body__title">Spending - Last 7 days</h1>
+        <div class="body__charts"></div>
+        <div class="body__info">
+          <span class="this-month">
+            <span class="text">Total this month</span>
+            <span class="amount">$478.33</span>
+          </span>
+          <span class="last-month">
+            <span class="percentage">+2.4%</span>
+            <span class="text">from last month</span>
+          </span>
+        </div>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
